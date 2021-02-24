@@ -1,0 +1,20 @@
+[
+    {
+        "_id":{"$oid":"6035ffb47e94043a80657e7d"},
+        "name":"Fashion",
+        "description":"Fashion description",
+        "isactive":true
+    },
+    {
+        "_id":{"$oid":"6035fff06b807c3ab310c4fa"},
+        "name":"Electronics",
+        "description":"Electronics description",
+        "isactive":true
+    },
+    {
+        "_id":{"$oid":"60360f97e64d8340ac64525d"},
+        "name":"Groceries",
+        "description":"Groceries description",
+        "isactive":false
+    }
+    ]

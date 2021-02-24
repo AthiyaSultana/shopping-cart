@@ -1,0 +1,37 @@
+[
+    {
+        "_id":{"$oid":"60360b7fd5bbf33e5efdb01b"},
+        "name":"kurti",
+        "description":"Green color",
+        "isactive":true,
+        "categoryId":{"$oid":"603603802c9fee3cd864068b"}
+    },
+    {
+        "_id":{"$oid":"6036106230981b410dde3c69"},
+        "name":"Red-Apple",
+        "description":"red color",
+        "isactive":true,
+        "categoryId":{"$oid":"603610203bcd3640e61c3016"}
+    },
+    {
+        "_id":{"$oid":"6036123c61001841c7069d34"},
+        "name":"Jeans",
+        "description":"Blue color",
+        "isactive":true,
+        "categoryId":{"$oid":"603603802c9fee3cd864068b"}
+    },
+    {
+        "_id":{"$oid":"6036125403bc9241d22567c8"},
+        "name":"Shervani",
+        "description":"Cream color",
+        "isactive":true,
+        "categoryId":{"$oid":"6036369c93596e534c8af1d0"}
+    },
+    {
+        "_id":{"$oid":"603688a0a4cdf26624b7fa8d"},
+        "name":"Mama earth",
+        "description":"Face cream",
+        "isactive":true,
+        "categoryId":{"$oid":"603610203bcd3640e61c3016"}
+    }
+]

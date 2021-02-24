@@ -1,0 +1,30 @@
+[
+    {
+        "_id":{"$oid":"603603802c9fee3cd864068b"},
+        "name":"fashion",
+        "description":"all dress for men and women",
+        "isactive":true,
+        "groupId":{"$oid":"6035ffb47e94043a80657e7d"}
+    },
+    {
+        "_id":{"$oid":"60360f147e2dc340637bf9bd"},
+        "name":"electronics in category",
+        "description":"Mobiles",
+        "isactive":true,
+        "groupId":{"$oid":"6035fff06b807c3ab310c4fa"}
+    },
+    {
+        "_id":{"$oid":"603610203bcd3640e61c3016"},
+        "name":"Grocery in category",
+        "description":"Apple",
+        "isactive":true,
+        "groupId":{"$oid":"60360f97e64d8340ac64525d"}
+    },
+    {
+        "_id":{"$oid":"6036369c93596e534c8af1d0"},
+        "name":"fashion-new",
+        "description":"another fashion category",
+        "isactive":true,
+        "groupId":{"$oid":"6035ffb47e94043a80657e7d"}
+    }
+]
