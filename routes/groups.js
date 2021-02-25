@@ -6,7 +6,7 @@ const _ = require("lodash");
 // const Categories = require('../models/categories');
 var ObjectId = require('mongodb').ObjectID;
 const categories = require('../models/categories');
-/* GET users listing. */
+/* GET Active groups data. */
 router.get('/', async function(req, res, next) {
   try {
     console.log('Groups', Groups);
