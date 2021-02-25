@@ -8,12 +8,16 @@ router.post('/saveCategory', async function(req, res, next) {
     try {
       const category = new Categories(req.body);
         await category.save((err, category) => {
-          if (err) return console.error(err);
-          console.log(category + " category in async");
+          if (err) {
+         throw err;
+          }
           res.status(200).send(category);
         });
     } catch (e) {
-      throw e;
+        res.status(500).send({
+            message:
+              err.message || "Some error occurred while saving category in database.",
+          });
     }
 
 });

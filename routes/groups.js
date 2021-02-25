@@ -6,6 +6,7 @@ const _ = require("lodash");
 // const Categories = require('../models/categories');
 var ObjectId = require('mongodb').ObjectID;
 const categories = require('../models/categories');
+const { MethodNotAllowed } = require('http-errors');
 /* GET Active groups data. */
 router.get('/', async function(req, res, next) {
   try {
@@ -15,6 +16,8 @@ router.get('/', async function(req, res, next) {
     },(err,data) =>{
       if(err){
         console.log('error', err);
+        throw err;
+  
       }
     });
     console.log(activeGroupData, "activeGroupData");
